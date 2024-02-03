@@ -18,13 +18,22 @@ th:first-child{
     color: white;
 }
 
-tr .description {
+tr .description_col {
     background-color: #b3d67d;
     color: black;
 }
 
-article p {
-    font-size: 20px;
+aside img {
+    width: 280px;
+    border: 2px solid black;
+}
+
+.description {
+    background-color: #ffebd8;
+    padding: 15px 20px;
+    margin: 15px 15px;
+
+    border-radius: 20px;
 }
 
 
