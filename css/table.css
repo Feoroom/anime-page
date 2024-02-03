@@ -1,0 +1,31 @@
+@import url(/css/global.css);
+@import url(/css/styles.css);
+
+table {
+    border-collapse: collapse;
+    
+    background-color: antiquewhite;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(133, 182, 156);
+
+}
+
+th:first-child{
+    color: white;
+}
+
+tr .description {
+    background-color: #b3d67d;
+    color: black;
+}
+
+article p {
+    font-size: 20px;
+}
+
+
+

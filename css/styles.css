@@ -1,0 +1,88 @@
+@import url(/css/global.css);
+
+/* 
+* HEADER
+*/
+.stars {
+  height: 1px;
+  background-position: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display:flex;
+
+  /* Чтобы убрать стиль, который накладывает браузер */
+  padding-left: 0;
+}
+
+
+nav li {
+  flex: 1;
+  text-align: center;
+}
+
+/* 
+* MAIN SECTION
+*/
+
+.main-cont {
+  display: flex;
+}
+section {
+  flex: 6;
+}
+
+/* 
+* GALLERY SECTION
+*/
+
+.gallery h2 {
+  text-align: center;
+  /* color: #332941; */
+}
+
+.gallery img {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+}
+
+.gallery img:hover {
+  transition-duration: 0.6s;
+  transform: scale(1.2);
+}
+
+.images {
+  display: flex;
+
+  flex-flow: row wrap;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+/* 
+* ASIDE
+*/
+aside {
+  flex: 1;
+  text-align: center;
+  line-height: 2;
+
+  height: 100%;
+}
+.animelist li {
+  text-align: left;
+  margin-left: -1.8em;
+}
+
+/* 
+* FOOTER
+*/

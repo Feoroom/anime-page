@@ -1,0 +1,54 @@
+/*
+* Стили для всего проекта
+*/
+
+body {
+  font-family: Josefin Sans;
+  color: #332941;
+  background-image: url(/img/background.jpg);
+}
+
+
+h1 {
+  text-align: center;
+  font-family: "Soligant", sans-serif;
+  font-size: 60px;
+}
+
+h2 {
+  color: #e8a9a9;
+}
+
+/* 
+* Класс для основных элементов страницы
+* nav, section, aside, footer
+*/
+
+.back {
+  background: linear-gradient(#c7dca7, #89b9ad);
+  padding: 20px;
+  margin: 1%;
+  border-radius: 20px;
+}
+
+article {
+  background-color: #ffebd8;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 15px auto;
+}
+
+a {
+  color: #443757;
+  text-decoration: none;
+  font-size: large;
+
+  line-height: 10px;
+}
+
+a:hover {
+  color: #ffebd8;
+  font-size: 22px;
+  text-decoration: none;
+}
+
