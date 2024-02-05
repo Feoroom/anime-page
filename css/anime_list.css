@@ -1,0 +1,41 @@
+@import url(/css/global.css);
+@import url(/css/styles.css);
+
+/* 
+*
+*/
+
+.anime {
+    display: flex;
+    margin: 30px;
+}
+
+.anime img {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    min-width: 300px;
+    min-height: 200px;
+}
+
+.anime p {
+    flex: 2;
+    text-align: justify;
+    margin: 10px 30px;
+}
+
+h3 {
+    text-align: center;
+    color: #e8a9a9;
+    border-bottom: 2px solid #e8a9a9;
+}
+
+
+a:hover {
+    color: #ffebd8;
+
+}
+
+.tirlist :hover {
+    color: #ffebd8;
+}
