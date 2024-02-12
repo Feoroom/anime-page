@@ -1,5 +1,29 @@
-body{
-    background-image: url(/img/gif/chipi-chapa.gif);
-    background-repeat: no-repeat;   
-    background-size: cover;
+@import url(/css/global.css);
+@import url(/css/styles.css);
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: antiquewhite;
+    
+
 }
+
+#prev {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+td, th {
+    border: 2px solid rgb(0, 0, 0);
+    height: 40px;
+    padding: 10px;
+}
+
+#lov {
+    line-height: 1.5;
+    
+}
+

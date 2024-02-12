@@ -2,6 +2,9 @@
 * Стили для всего проекта
 */
 
+@import url(https://fonts.cdnfonts.com/css/soligant);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
 body {
   font-family: Josefin Sans;
   color: #332941;
